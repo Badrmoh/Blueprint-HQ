@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"c9e20bb83fb8826c","x":103,"y":-840,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Value Proposition.md"},
+		{"id":"9f98caf41ac1d287","x":-560,"y":-520,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Customer Segments.md"},
+		{"id":"61cd8eb7359312ef","x":800,"y":-640,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Customer Relationships.md"},
+		{"id":"a220d2684d273da8","x":1280,"y":-35,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Key Partnerships.md"},
+		{"id":"5be59a722088e54f","x":-680,"y":760,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Revenue Streams.md"},
+		{"id":"db91db197b5f2e20","x":-97,"y":1280,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Key Activities.md"},
+		{"id":"308af36fd099db4f","x":1200,"y":640,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Key Resources.md"},
+		{"id":"351f24dfb7131a03","x":680,"y":1160,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Cost Structure.md"},
+		{"id":"6e4051e2406966b7","x":-960,"y":165,"width":400,"height":400,"type":"file","file":"Projects/with-Darsh/AI-based E-learning and LMS platform/business model/Channels.md"}
+	],
+	"edges":[]
+}
