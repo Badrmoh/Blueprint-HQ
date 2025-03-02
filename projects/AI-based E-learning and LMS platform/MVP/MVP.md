@@ -16,4 +16,23 @@
 	-  **Live & On-Demand Learning** – Webinars, virtual classrooms, and self-paced courses.
 	- **AI Chatbots & Virtual Tutors** – Instant support for learners.
 
-## 
+## MVP Type
+- a mix of Piecemeal MVP & Single-Feature MVP
+
+### Build the MVP
+- Use low-cost methods  
+- Ensure a functional user experience  
+
+
+## Test with Early Adopters  
+- Find a relevant target audience  
+- Observe user behavior  
+
+## Measure & Learn
+- Collect feedback  
+- Track key metrics  
+
+## Iterate or Pivot
+- Improve based on feedback  
+- Add features only when needed  
+- Consider pivoting if necessary  
