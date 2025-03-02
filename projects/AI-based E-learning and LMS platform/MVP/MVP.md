@@ -1,2 +1,4 @@
-# Core Value Proposition
+## Core Value Proposition
+- Learning Management System
+## Core Features
 - 
