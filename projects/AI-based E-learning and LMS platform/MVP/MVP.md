@@ -1,6 +1,6 @@
 ## Core Value Proposition
 - Learning Management System
 ## Core Features
-- Online Platform
-- Sign-In/Up
+- User & Role Management
+-  Learning Content Management
 - 
