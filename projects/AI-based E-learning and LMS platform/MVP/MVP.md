@@ -1,6 +1,7 @@
 ## Core Value Proposition
 - Learning Management System
 ## Core Features
+- Check ->  [[Moodle Features]]
 - User & Role Management
 	-  **User Profiles & Authentication** – Learners, instructors, and admins have different access levels.
 	- **Enrollment & Access Control** – Assign courses based on role, department, or learning path.
