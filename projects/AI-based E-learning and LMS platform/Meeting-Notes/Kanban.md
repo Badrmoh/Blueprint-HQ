@@ -9,8 +9,9 @@ kanban-plugin: board
 - [ ] Explore Moodle features in details
 
 
-## Done
+## Backlog
 
+- [ ] How Transformer LLMs work Course: [Link](https://www.deeplearning.ai/short-courses/how-transformer-llms-work/)
 
 
 
