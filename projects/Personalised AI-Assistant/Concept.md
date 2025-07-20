@@ -4,4 +4,4 @@
 	- Interactively assist users
 	- Segment data per category 
 	- Reason over cross-categorical data
-	- 
+	-  Autonomously generate results (analysis, suggestions, ....)
