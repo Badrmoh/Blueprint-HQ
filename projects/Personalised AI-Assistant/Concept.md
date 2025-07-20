@@ -1,4 +1,7 @@
 - AI Assistants are able to
 	- Contextualize responses
 	- Autonomously reason over data
+	- Interactively assist users
+	- Segment data per category 
+	- Reason over cross-categorical data
 	- 
