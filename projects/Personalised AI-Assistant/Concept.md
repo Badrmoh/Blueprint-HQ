@@ -1,1 +1,4 @@
-- AI Assistants are
+- AI Assistants are able to
+	- Contextualize responses
+	- Autonomously reason over data
+	- 
