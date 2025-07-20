@@ -30,3 +30,5 @@
 	- Camera
 	- Voice
 	- Text-Chat
+	- local files
+	- cloud storage
