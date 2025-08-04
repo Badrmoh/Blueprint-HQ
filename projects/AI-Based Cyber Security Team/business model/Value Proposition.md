@@ -12,6 +12,8 @@
 	- reports generated from each test are reasoned over
 - Generate scenarios using AI
 	- based on historical data, scenarios can also be generated
-- 
+- Zero-Day vulnerabilities discovery
+	- dedicate service to discover zero-day vulnerabilities
+	- auto-train agents to be able to perform testings on those vulnerabilities
 ---
 • Example: Uber provides convenient and affordable ride-hailing.
