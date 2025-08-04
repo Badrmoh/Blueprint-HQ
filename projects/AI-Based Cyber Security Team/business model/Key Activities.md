@@ -3,5 +3,6 @@
 - Autonomous Reasoning
 - Data Collection
 - Integration with external systems
+- Penetration Testing
 ---
 • Example: Airbnb focuses on platform maintenance and host management.

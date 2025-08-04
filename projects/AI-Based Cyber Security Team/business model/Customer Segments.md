@@ -1,9 +1,5 @@
 
 **Who are the target customers?**
-- Enterprises
-- Executives
-- Content Creators
-- Athletes
-- Students
+- B2B
 ---
 • Example: Netflix serves entertainment lovers globally.
