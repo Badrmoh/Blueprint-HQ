@@ -43,21 +43,33 @@ Security teams today face:
 
 ```mermaid
 flowchart TD
-    subgraph "During Test"
+    %% ------------------------------
+    %% 1️⃣ During Test
+    %% ------------------------------
+    subgraph DuringTest["During Test"]
         RAW[Raw Payloads & Logs] --> TEMP[(Transient DB)]
         TEMP --> SANDBOX[Sandbox]
     end
 
-    subgraph "After Report Generation"
+    %% ------------------------------
+    %% 2️⃣ After Report Generation
+    %% ------------------------------
+    subgraph AfterReportGeneration["After Report Generation"]
         REPORT_GEN[Report Engine] -->|Deliver report| USER(User)
         TEMP -.->|Auto‑Delete (24 hrs)| DELETE((Delete))
     end
 
-    subgraph "Optional Audit Trail"
+    %% ------------------------------
+    %% 3️⃣ Optional Audit Trail
+    %% ------------------------------
+    subgraph OptionalAuditTrail["Optional Audit Trail"]
         TEMP --retain--> AUDIT[(Encrypted Audit Store)]
         AUDIT -.->|Retention Period| ARCHIVE((Archive))
     end
 ```
+
+
+
 
 ---
 
