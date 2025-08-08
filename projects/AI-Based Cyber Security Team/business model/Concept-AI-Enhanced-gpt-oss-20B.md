@@ -22,15 +22,15 @@ Security teams today face:
 
 ## 3. Solution Overview
 
-| Layer | Function | Key Technologies |
-|-------|----------|------------------|
-| **User Interface** | Web dashboard + API + optional Slack/Confluence bot | React, FastAPI, OpenAI API |
-| **Orchestrator (Agentic AI)** | Natural‑language understanding of user requests; plans test steps; monitors sandbox execution | GPT‑4 / Claude / LLM fine‑tuned on pentest data |
-| **Sandbox Manager** | Spins up isolated Docker/K8s pods per target URL, applies network policies | Docker, Kubernetes, CNI plugins (Calico) |
-| **Test Modules** | Recon (port scan, OSINT), Vulnerability Scanning (OWASP ZAP, Nikto), Exploitation (Metasploit, custom scripts) | OWASP ZAP API, Metasploit RPC, custom Python agents |
-| **Data Store** | Metadata & transient logs; optional audit trail | PostgreSQL + encrypted blob storage |
-| **Reporting Engine** | Aggregates findings, maps CVEs to MITRE ATT&CK, generates PDF/HTML report | Pandoc, Markdown → PDF, LLM summarization |
-| **Chatbot Interface** | Interprets user questions on the report; fetches relevant logs or screenshots | GPT‑4 fine‑tuned for security Q&A |
+| Layer                         | Function                                                                                                       | Key Technologies                                    |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **User Interface**            | Web dashboard + API + optional Slack/Confluence bot                                                            | React, FastAPI, OpenAI API                          |
+| **Orchestrator (Agentic AI)** | Natural‑language understanding of user requests; plans test steps; monitors sandbox execution                  | GPT‑4 / Claude / LLM fine‑tuned on pentest data     |
+| **Sandbox Manager**           | Spins up isolated Docker/K8s pods per target URL, applies network policies                                     | Docker, Kubernetes, CNI plugins (Calico)            |
+| **Test Modules**              | Recon (port scan, OSINT), Vulnerability Scanning (OWASP ZAP, Nikto), Exploitation (Metasploit, custom scripts) | OWASP ZAP API, Metasploit RPC, custom Python agents |
+| **Data Store**                | Metadata & transient logs; optional audit trail                                                                | PostgreSQL + encrypted blob storage                 |
+| **Reporting Engine**          | Aggregates findings, maps CVEs to MITRE ATT&CK, generates PDF/HTML report                                      | Pandoc, Markdown → PDF, LLM summarization           |
+| **Chatbot Interface**         | Interprets user questions on the report; fetches relevant logs or screenshots                                  | GPT‑4 fine‑tuned for security Q&A                   |
 
 ---
 
