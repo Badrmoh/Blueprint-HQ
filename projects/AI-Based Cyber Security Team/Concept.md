@@ -315,3 +315,33 @@ flowchart TD
     FoundVulnerabilities --> QandA["Interactive report with Q&A chat"]
 ```
 
+---
+### **Key Features**
+
+1. **Sandbox-Integrated Scanning**
+    - Creates fully functional sandbox environments automatically
+    - Context-aware vulnerability detection with reasoning capabilities
+2. **Adaptive White Hat Testing**
+    - NLP-powered test parameter extraction from user input
+    - Autonomous agents rewrite penetration tests based on findings
+3. **Intelligent Reporting**
+	- Interactive report format: 
+		- Q&A session interface about vulnerabilities (when user accesses) 
+		- Contextual vulnerability explanation including how it was found 
+		- Visual context mapping overlaid with attack paths 
+			- Example: “Hi, what’s the most dangerous vulnerability on example.com? I heard they’re logging all PII fields?”
+4. **Multi-modal Output**
+    - Text reports with interactive elements
+    - Light debugging session capability view
+
+---
+
+### **Data Model Enhancements**
+
+**Storage Policy:**
+
+```mermaid
+graph LR
+    G[Scan Execution History] -- customer-approved --> H(1yr Retention)
+    I[historical-database] – stores --> J(test-results-metadata)
+```
