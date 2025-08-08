@@ -5,7 +5,7 @@ status: Todo
 
 ## Bootstrapping
 
-- [ ] [[(P-1) Build Scenario]]
+- [ ] [[Build Scenario]]
 
 
 
