@@ -1,11 +1,9 @@
 ---
 title: "{{title}}"
 created: "{{date}}"
-tags: 
-Board:
+tags: []
+status:
 ---
-
-# {{title}}
 
 ## Story
 
