@@ -7,10 +7,10 @@ status: In Progress
 
 - [ ] [[[P-1] Build Scenario]]
 - [ ] [[[P-2] Research Pentesting Process]]
-	- [x]
-	- [-]
-	- [.]
-	- []
+	- [ ] task 1
+	- [ ] task 2
+	- [ ] task 3
+	- [ ] task 4
 
 
 
