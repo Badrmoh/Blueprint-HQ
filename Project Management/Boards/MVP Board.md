@@ -1,11 +1,16 @@
 ---
 kanban-plugin: board
-status: Todo
+status: In Progress
 ---
 
 ## Bootstrapping
 
 - [ ] [[[P-1] Build Scenario]]
+- [ ] [[[P-2] Research Pentesting Process]]
+	- [x]
+	- [-]
+	- [.]
+	- []
 
 
 
