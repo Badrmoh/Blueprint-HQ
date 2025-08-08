@@ -24,3 +24,17 @@
 
 # External Integrations
 - Maybe Jira or confluence, to push test results or reports.
+-
+
+---
+### **Product Concept**
+
+**AutoPen Agent**: An agentic, AI-driven vulnerability assessment platform that automates penetration testing workflows while providing contextual intelligence.
+
+### **Core Value Proposition**
+
+- Accelerated vulnerability discovery (10x speed of manual testing)
+- Contextual risk scoring based on attack surface context
+- Integrated sandbox environments by default (no user configuration needed)
+- Conversational security report format reduces research overhead
+
