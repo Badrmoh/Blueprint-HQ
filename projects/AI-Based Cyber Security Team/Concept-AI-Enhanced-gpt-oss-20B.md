@@ -131,6 +131,15 @@ sequenceDiagram
 | **Slack / Teams** | Chatbot interface, alerts for critical findings | Slack Bot built on Bolt SDK |
 | **Vulnerability Management Systems (Nexus IQ, Qualys)** | Push findings into existing dashboards | REST webhook integration |
 
+```mermaid
+flowchart TD
+    UI[User Interface] --> ORCH[Orchestrator]
+    ORCH --> JIRA[Jira]
+    ORCH --> CONF[Confluence]
+    ORCH --> SLACK[Slack Bot]
+    ORCH --> CI[CI/CD Pipeline]
+```
+
 ---
 
 ## 7. Architecture Diagram (Text Version)
