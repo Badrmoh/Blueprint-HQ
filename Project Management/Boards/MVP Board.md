@@ -1,7 +1,6 @@
 ---
-
 kanban-plugin: board
-
+status: Todo
 ---
 
 ## Bootstrapping
