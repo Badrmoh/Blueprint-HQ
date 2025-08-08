@@ -45,20 +45,20 @@ Security teams today face:
 flowchart TD
     %% 1️⃣ During Test
     subgraph DuringTest["During Test"]
-        RAW["Raw Payloads & Logs"] --> TEMP["Transient DB"]
+        RAW["Raw Payloads & Logs"] --> TEMP[("Transient DB")]
         TEMP --> SANDBOX["Sandbox"]
     end
 
     %% 2️⃣ After Report Generation
     subgraph AfterReportGeneration["After Report Generation"]
         REPORT_GEN["Report Engine"] -->|Deliver report| USER["User"]
-        TEMP -.->|Auto-Delete (24 hrs)| DELETE["Delete"]
+        TEMP -. "Auto-Delete (24 hrs)" .-> DELETE(("Delete"))
     end
 
     %% 3️⃣ Optional Audit Trail
     subgraph OptionalAuditTrail["Optional Audit Trail"]
-        TEMP -->|Retain| AUDIT["Encrypted Audit Store"]
-        AUDIT -.->|Retention Period| ARCHIVE["Archive"]
+        TEMP -->|Retain| AUDIT[("Encrypted Audit Store")]
+        AUDIT -. "Retention Period" .-> ARCHIVE(("Archive"))
     end
 ```
 
