@@ -1,11 +1,13 @@
 ---
+
 kanban-plugin: board
 status: In Progress
+
 ---
 
 ## Bootstrapping
 
-- [ ] [[[P-1] Build Scenario]]
+- [ ] [[[P-1] Build Attack Scenario]]
 - [ ] [[[P-2] Research Pentesting Process]]
 	- [ ] task 1
 	- [ ] task 2
@@ -13,10 +15,14 @@ status: In Progress
 	- [ ] task 4
 
 
+## 
+
+
+
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false]}
+{"kanban-plugin":"board","list-collapse":[false,false]}
 ```
 %%
