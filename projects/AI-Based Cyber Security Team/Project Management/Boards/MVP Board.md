@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## Bootstrapping
 
-- [ ] Build Scenario
+- [ ] [[(P-1) Build Scenario]]
 
 
 
