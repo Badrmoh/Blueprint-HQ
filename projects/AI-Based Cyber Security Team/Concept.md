@@ -258,142 +258,60 @@ graph TB
     end
 ```
 
----
-
-### **Key Features**
-
-1. **Sandbox-Integrated Scanning**
-   - Creates fully functional sandbox environments automatically
-   - Context-aware vulnerability detection with reasoning capabilities
-
-2. **Adaptive White Hat Testing**
-   - NLP-powered test parameter extraction from user input
-   - Autonomous agents rewrite penetration tests based on findings
-
-3. **Intelligent Reporting**
-```markdown
-Interactive report format:
-- Q&A session interface about vulnerabilities (when user accesses)
-- Contextual vulnerability explanation including how it was found
-- Visual context mapping overlaid with attack paths
-
-Example:
-“Hi, what’s the most dangerous vulnerability on example.com?
-I heard they’re logging all PII fields?”
-```
-
-4. **Multi-modal Output**
-   - Text reports with interactive elements
-   - Light debugging session capability view
-
----
-
-### **Data Model Enhancements**
-
-**Storage Policy:**
 ```mermaid
-graph LR
-    G[Scan Execution History] -- customer-approved --> H(1yr Retention)
-    I[historical-database] – stores --> J(test-results-metadata)
-```
+graph BT
+    %% User interaction
+    C[User Input: URL + Parameters] -->|triggers| D[Sandbox Creation/Preparation]
 
-**Data Types:**
-- **Findings Database**: Schema-normalized vulnerability data with traceability metadata
-  - Web app assessment -> OS fingerprinting -> Service vulnerabilities -> Known CVEs
+    %% System flow
+    A[AI PenTesting Agent] --> B[Enhanced Sandbox]
+    B --> L[Reporting Agent]
+    D --> B
+    B --> F[Collection Agent]
+    F --> H[Test Execution Agent]
+    H --> I[Testing Results & Observations]
+    J[Merged Intelligence Engine] --> K[Data Visualization Layer]
+    I --> J
 
----
+    %% Reused flow made clearer
+    C --> D
+    I -.-> A
+    A -.-> J
 
-### **Workflow Refinement**
-
-```mermaid
-flowchart TB
-    subgraph "Customer Interaction"
-        A[“Submit: https://example.com”]
-        B[Initiate test profile]
+    %% Core subgraph
+    subgraph "Core Components"
+        direction LR
+        F --> H
+        H --> I
     end
 
-    subgraph "AutoPen Engine"
-        C([Scan Initial History?])
-        D{“Yes” or “No”?} -- if No --> E[Sandbox Creation]
-            E –> F[“Agent dispatches…”];
-        G{“Execute scan sequence”}
-    end
+    %% Optional styling section (Mermaid does not support `Style` keyword directly like this)
+    %% If you want to style nodes, you need to use the `classDef` and `class` directives
 
-    subgraph "Reporting Layer"
-        H[Interactive Explanation]
-        I["Risk Score: 8.2/10"]
-    end
+    classDef user fill:#e0f7fa,stroke:#00796b,stroke-width:2px;
+    classDef sys fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px;
 
-Customer inputs raw vulnerability intelligence at any point →
-Connects to report generation tool without bypassing security controls:
+    class C,D user;
+    class A,B,F,H,I,J,K,L sys;
 ```
 
----
-
-### **Competitive Differentiation**
-
-| Feature | Traditional Pentest | AutoPen Agent |
-|--------|-------------------|-------------|
-| Time to first finding | ~30 mins           | <5s          |
-| Understanding context | Requires manual investigation | Automated with interactive Q&A |
-| Integration capability | Manual spreadsheet creation   | Auto-generated context mapping |
-
----
-
-### **Security Architecture Considerations**
-
-1. **Sandbox Isolation**: 
-   - Default execution environment uses Docker-in-Docker with network isolation
-   - All data flows logged to audit trail
-
-2. **Data Encryption**: 
 ```mermaid
-graph LR
-    G[“Encrypted transit via TLS”] -- passes-by --> H(plaintext-vulnerability-database)
+flowchart TD
+    %% User interaction
+    User["User provides URL, selects test mode"] --> Sandbox["Sandbox environment prepared"]
+    User --> AgentScript["Agent scripts tailored to OWASP Top 10 / CUSTOM"]
+
+    %% Sandbox logic
+    Sandbox -- "If required" --> OSFingerprint["OS Fingerprinting + Service Detection"]
+
+    %% Execution logic
+    AgentScript --> Targets["Scan targets defined"]
+    Targets --> Execution["Agent executes test passively on server-side"]
+    Execution -- "Captures data" --> Db["Connects to Database / Listserves? (not default)"]
+    Execution --> History["Historical database flagged: raw data retained"]
+
+    %% Results
+    Execution --> FoundVulnerabilities["Detection of vulnerabilities on target"]
+    FoundVulnerabilities --> QandA["Interactive report with Q&A chat"]
 ```
 
----
-
-### **Requirements Flow Chart**
-
-**Enhanced Workflow:**
-```mermaid
-flowchart TB
-    title "Pen Testing Workflow Enhancement"
-
-    direction LR
-
-    id("User Input") -- “Select test mode:” --> 
-    id(Testing Modes) --> FullScan["Full Application Assessment"] & \
-        OWTFocused["OWTF-focused Scan"] & \
-        AdvancedExploitation["Advanced Exploit Testing"]
-
-    [All] --> SandboxPrep["Prepare test sandbox:"] & \
-        OSAnalysis["OS Fingerprinting + Service Detection"]
-
-    [All] --> AgentDrivenTest["AI-Powered Testing Sequence:"]
-        direction TD
-
-    Agents -- run tests --> RawFindings
-    OWASP["OWASP Top 10 Analysis"] & \
-        NVD["NVD Database Query"]
-
-    RawFindings -- combined --> AnnotatedVulnerabilities
-
-    [All] --> ReportGeneration["Generate Full Assessment:"]
-        direction TB
-
-    FinalReport -- contains --> LikelihoodMatrix
-```
-
----
-
-### **Implementation Recommendations**
-
-1. **Consistency Layering**: 
-   - All test results should have a common JSON schema before storage
-- Pre-built agent templates for repeatable testing
-
----
-
-Would you like me to prioritize developing any specific component of this architecture?
