@@ -30,6 +30,6 @@ status: In Progress
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false],"hide-card-count":false,"full-list-lane-width":false}
 ```
 %%
