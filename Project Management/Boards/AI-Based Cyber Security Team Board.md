@@ -5,10 +5,18 @@ status: In Progress
 
 ---
 
-## Bootstrapping
+## Pending
 
-- [ ] [[[P-1] Build Attack Scenario]]
-- [ ] [[[P-2] Research Pentesting Process]]
+- [ ] [[1. Build Attack Scenario]]
+- [ ] [[2. Research Pentesting Process]]
+
+
+## In Progress
+
+
+
+## Done
+
 
 
 ## Backlog
@@ -22,6 +30,6 @@ status: In Progress
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false]}
 ```
 %%
