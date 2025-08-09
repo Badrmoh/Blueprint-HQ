@@ -9,10 +9,6 @@ status: In Progress
 
 - [ ] [[[P-1] Build Attack Scenario]]
 - [ ] [[[P-2] Research Pentesting Process]]
-	- [ ] task 1
-	- [ ] task 2
-	- [ ] task 3
-	- [ ] task 4
 
 
 ## Backlog
