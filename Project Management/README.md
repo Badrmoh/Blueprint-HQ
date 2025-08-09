@@ -6,3 +6,5 @@
 4. Done tickets can be moved to Done List
 5. Use tags i, ii or iii to set the priority
 6. Always add tags of the corresponding sprint / epic
+7. Use Search Tab to find Saved Searches, e.g. Notes having Tag "sprint-1"
+8. Alternatively, use the Search function in the Kanban board
