@@ -2,7 +2,6 @@
 - Agentic AI based Pen Tester
 - Ability to create sandboxes for carrying out tasks
 - Generate Reports
-- User
 
 # Data Properties
 - Data Collected deleted as soon as Reports generated?
