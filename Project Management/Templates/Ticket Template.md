@@ -3,7 +3,7 @@ created: "{{date}}"
 tags:
 ---
 
-## Story
+# Story
 
 
-## Comments
+# Comments
