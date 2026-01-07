@@ -96,4 +96,8 @@ This summer we’ve analyzed thousands of hours of footage across:
 ### My Notes
 - The same idea can be used for specific tasks using VLMs
 	- maybe deepfake detection
-	- Technical assistant ()
+	- technician assistant
+- http://nvidia.com/en-us/glossary/vision-language-models/
+---
+
+# 
