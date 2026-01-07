@@ -100,4 +100,18 @@ This summer we’ve analyzed thousands of hours of footage across:
 - http://nvidia.com/en-us/glossary/vision-language-models/
 ---
 
+# RamAIm
+
+RamAIn is your real-life Jarvis that works out-of-the-box on your favorite applications including WhatsApp Desktop, Outlook and more. Just tell it what to do sit back and watch it work just like you, intelligently simulating mouse and keyboard clicks to achieve your goals. Current CUAs all follow the same decision loop: screenshot, VLM, decision, repeat. This is expensive, unreliable and slow. We build infrastructure to pre-train CUAs on specific interfaces allowing them to intelligently use the computer super-duper fast.
+
+### My Notes
+- It is basically a collection of Computer-Use Agents
+- Even Computers can now be operated more efficiently using AI and CUAs
+- Other use cases:
+	- QS Agents for web apps
+	- Industrial OS that doesnt offer Integration neither API
+- https://ramain.ai/
+- https://github.com/trycua/cua
+---
+
 # 
