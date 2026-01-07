@@ -6,7 +6,7 @@ Mechanical contractors struggle to get timely, accurate updates from the field b
 
 Dexter’s AI agents make it easy to capture field data using voice, images or documents, enrich it with context, and turn it into structured updates for both construction and service work.
 
-## Problem
+### Problem
 
 Completing construction projects on time is notoriously difficult - 75% of construction projects are not done on time - and delays mean financial penalties, strained client relationships, and lost revenue from the next job. The reason for most delays is broken communication between in-field and back office teams.
 
@@ -15,7 +15,7 @@ Completing construction projects on time is notoriously difficult - 75% of const
 - **Payments are delayed.** Missing reports hold up invoicing and can lead to billing disputes, resulting in cash crunches.
 - **Missed documentation = missed revenue.** Change orders, service upsells, and warranty claims fall through the cracks without clear documentation, costing contractors thousands.
 
-## Solution
+### Solution
 
 AI agents that work like a new crew member, no training needed.
 
@@ -25,21 +25,21 @@ AI agents that work like a new crew member, no training needed.
 - **Generate structured, client-ready reports.** Create customizable reports with photos, equipment, and job details. Upload past examples to easily create templates, so reports are ready to send to GCs, clients, or accounting.
 - **Easily digitize paper documents.** Construction sites still rely on paper for deliveries, timesheets, and more. Dexter’s AI can extract all relevant information, verify it against your project plan, and add it to your ERP.
 
-## Use Cases
+### Use Cases
 
 - **Daily Logs Agent:** Dexter’s voice AI calls your foreman or super when they leave the site, asks what got done, automatically pulls in weather and project data, and generates the log for them. The completed log is instantly sent to your PM’s inbox.
 - **Production Reports Agent:** Log field hours via GPS tracking, pull material data from your ERP, and compare progress to plan. Your foreman or super uses the voice agent to add context, and the agent turns it all into an actionable report for project managers.
 - **Service Reports Agent:** Dexter’s voice agent talks to service techs to collect all required information about the job, including parts used and any follow-ups needed. The agent extracts asset data via photos, and generates a full report for customer approval.
 - **Invoice Match Agent:** Dexter digitizes delivery slips, purchase orders, and invoices, flags overcharges or missing items, handles follow-ups with suppliers, and syncs clean data to the accounting system.
 
-## My Notes
+### My Notes
 - Same idea can be brought to many field based reporting scenarios:
 	- Construction
 	- Warehouses (can be helpful in Auditing?)
 
 ---
 # Bolna - Voice AI for India
-## **The Problem**
+### **The Problem**
 
 In India, phone calls remain the backbone of how businesses operate - from banks chasing loan repayments, to edtech companies qualifying leads, to e-commerce brands confirming deliveries. Millions of such calls happen every day. But the system is broken:
 
@@ -47,7 +47,7 @@ In India, phone calls remain the backbone of how businesses operate - from banks
 - **Context-Dependent Requirements**: A delivery driver in Bangalore needs a low-latency, Kannada-capable model with high noise cancellation. A recruitment call to an engineer requires a slower but higher-quality reasoning model. There is no “one model to rule them all,” and integrating and managing 100s of models at scale is an unwanted hassle for businesses.
 - **Cost Efficiency at Scale**: In India, every rupee matters. Voice AI must be engineered for efficiency - pre-recorded messages for common utterances, smaller vertical-focused models, and intelligent routing to minimize token usage.
 
-## **The Solution**
+### **The Solution**
 
 Bolna is a **Voice AI Platform** purpose-built for India’s scale, linguistic complexity, and cost sensitivity. We enable enterprises to go live with thousands of concurrent calls in days, not months.
 
@@ -61,4 +61,39 @@ Today, Bolna powers **500K+ minutes of calls every month** across BFSI, e-comm
 For Indian enterprises, Bolna is not just automation, it is the fastest path to scaling voice operations profitably.
 
 ---
-# 
+#  OnDeck AI
+
+### TL;DR
+
+OnDeck lets you analyze any video, without training a model. Instantly find any event, behaviour, or object without needing any training data.
+
+### The Pain:
+
+Creating vision models can take months of engineering time: collecting training data, training, then deployment.  Worse yet:
+
+- it’s often impossible to get enough data for a specific task, and
+- even the best cv models struggle to generalize across diverse camera setups, workflows and environments.
+
+### Our Magic:
+
+To overcome these blockers, we bet early on the power of VLMs and built a vision engine that can generalize across any task and doesn’t need any training data. We **published a NeurIPS workshop paper** showing our new methods with VLMs beat traditional CV even at niche tasks.
+
+Why this is good:
+
+- We never train on customer data, unlocking sensitive use cases.
+- Deploy instantly and skip months of R&D.
+- Identify things that have never been seen before.
+- Unlike traditional cv, OnDeck can **_understand_** qualitative behaviour and sequences of events.
+
+This summer we’ve analyzed thousands of hours of footage across:
+
+- Fleets of Autonomous Surface Vessels
+- Robotics Research
+- Security cameras
+- Behaviour analysis for port monitoring
+- Off-shore oil & gas monitoring
+
+### My Notes
+- The same idea can be used for specific tasks using VLMs
+	- maybe deepfake detection
+	- Technical assistant ()
