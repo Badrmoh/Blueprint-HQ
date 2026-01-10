@@ -151,9 +151,9 @@ We believe the future of product development is self-improving applications, as 
 
 ![uploaded image](https://www.ycombinator.com/media/?type=post&id=95857&key=user_uploads/32432/d6267f91-4de3-49fc-be7a-06438679c1b5)
 
-[**Anton Krutiansky**](https://www.linkedin.com/in/antonkrutiansky/) is a second-time YC founder, Waterloo alum, and former tech lead at Dropbox. He co-founded Pair (YC W12) and played a key role in its acquisition by Dropbox. At Dropbox, he served as a tech lead on growth and mobile teams, building growth and experimentation infrastructure and leading mobile engineering across several product teams.
-
-[**Aram Aghababyan**](https://www.linkedin.com/in/aaghababyan/) was an Engineer at Meta Superintelligence Labs, developing the AI training platform for managing data and compute resources for ML training jobs. Prior to Meta, he specialized in data center infrastructure for large-scale software-defined networks at Insieme Networks (later acquired by Cisco).
-
+### My Notes
+- The idea of letting ai understand your app and generate single source-of-truth data is appealing and sounds useful
+- https://www.ycombinator.com/launches/Ow5-atlasgrid-accelerate-product-iteration
 --- 
 
+# 
