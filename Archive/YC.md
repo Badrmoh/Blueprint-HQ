@@ -139,8 +139,6 @@ These obstacles make it difficult to form a coherent, end-to-end understanding o
 
 AtlasGrid uses an AI agent to go through your iOS and Android app, building a graph of the app architecture. It captures your analytics events, and builds a searchable graph of your app. You can easily find app screens, flows, events and even see funnel + CTA conversion rates directly on your UI. This makes it easy to get answers to questions like _“which upsells drive most of my trials”_ or _“where am I losing most of my users in onboarding”_. By tracking changes across every version of your app, every feature flag, we will become a source of truth for your product development cycle.
 
-![uploaded image](https://www.ycombinator.com/media/?type=post&id=95857&key=user_uploads/32432/ae6d9a35-971a-41d8-b6a3-dde2df305631)
-
 **Our Vision**
 
 AtlasGrid is building towards a future in which generative design is commoditized, and the primary differentiator for teams will be performance. How quickly they can identify opportunities, ship improvements, and measure results. Our platform will integrate directly with AI code-generation tools, enabling developers to rapidly launch design variations suggested by “the grid,” dynamically reconfiguring their app for growth.
