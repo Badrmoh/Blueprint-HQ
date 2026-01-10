@@ -181,16 +181,12 @@ Blue enables full, hands-free phone control via a voice-first computer-use model
 
 [https://youtu.be/PJV27Nd9eiI](https://youtu.be/PJV27Nd9eiI)
 
-**Team**
-
-- **Omar Abdelaziz**: Led Google Assistant’s transition to LLMs; holds one of the earliest patents in LLM-based computer control.
-- **Peter Krogh**: Decades designing voice-first dialog systems; multiple design patents; most recently design lead at Google DeepMind serving actions on Gemini Live.
-- **Farhan Hossain**: Helped ship Apple Vision Pro; 50+ patents in hardware/systems; led products from prototyping to mass production and global fulfillment.
-
 We’ve built systems used by billions. Now we’re on to defining the next era of computing.
 
 ### My Notes
 - The idea of integration using computer use is appealing
-- The 
+	- Though it is intersting to see how it works using external hardware (usb-c plugin)
+		- Maybe there's something to develop on
 ---
 
+# 
