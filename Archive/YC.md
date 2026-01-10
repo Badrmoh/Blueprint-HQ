@@ -189,4 +189,5 @@ We’ve built systems used by billions. Now we’re on to defining the next era 
 		- Maybe there's something to develop on
 ---
 
-# 
+# Useful stuff
+- Cross-Platform OSS for deploying ai on smart phone devices https://www.cactuscompute.com/
